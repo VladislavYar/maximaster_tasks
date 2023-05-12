@@ -106,6 +106,13 @@ function mapInit(){
         searchControlProvider: 'yandex#search'
     });
 
+    ymaps.geolocation.get(
+        {mapStateAutoApply: true}
+    ).then(
+        function(result) {
+        yandMap.geoObjects.add(result.geoObjects)
+    });
+
     /** 
      * При клике выводит подсказку с координатами и метку.
      * При втором клике убирает подсказку.

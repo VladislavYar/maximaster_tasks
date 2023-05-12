@@ -58,7 +58,7 @@
         </div>
         <script src={{ asset('js/jquery-3.6.4.min.js') }}></script>
         <script src={{ asset('js/jquery.validate.min.js') }}></script>
-        <script src="https://api-maps.yandex.ru/2.1/?apikey={{ env('YANDEX_API_KEY') }}&lang=ru_RU" type="text/javascript">
+        <script src={{ asset('js/yamap.js') }}>
         </script>
         <script src={{ asset('js/bootstrap.min.js') }}></script>
         <script src={{ asset('js/chart.js') }}></script>
