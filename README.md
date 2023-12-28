@@ -21,7 +21,7 @@
    - запустить проект ```php artisan serve```.
 
 
-## Что использовалось при выполнении заданий:
+## Стек проекта:
  - PHP 8.2.5;
  - Laravel Framework 10.9.0;
  - Bootstrap  v5.3.0-alpha3(CSS);
